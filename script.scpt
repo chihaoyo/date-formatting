@@ -29,6 +29,5 @@ on dateEvernoteFormat(theDate)
 	set AppleScript's text item delimiters to ":"
 	set h to text item 1 of clock
 	set n to text item 2 of clock
-	log am_pm
 	return m & " " & d & ", " & y & " at " & h & ":" & n & " " & am_pm
 end dateEvernoteFormat
